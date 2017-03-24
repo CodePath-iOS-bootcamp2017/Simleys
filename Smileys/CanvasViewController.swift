@@ -72,6 +72,12 @@ class CanvasViewController: UIViewController {
             UIView.animate(withDuration: 0.2, animations: {
                 self.newlyCreatedFace.transform = CGAffineTransform(scaleX: 1.4, y: 1.4)
             })
+            
+            let deleteGesture = UITapGestureRecognizer()
+            deleteGesture.numberOfTapsRequired = 2
+            deleteGesture.addTarget(self, action: #selector(didTapFaceTwice))
+            self.newlyCreatedFace.addGestureRecognizer(deleteGesture)
+            self.newlyCreatedFace.isUserInteractionEnabled = true
         }else if sender.state == .changed{
             let translation = sender.translation(in: view)
             newlyCreatedFace.center = CGPoint(x: newlyCreatedFaceOriginalCenter.x + translation.x, y: newlyCreatedFaceOriginalCenter.y + translation.y)
@@ -82,6 +88,9 @@ class CanvasViewController: UIViewController {
         }
     }
     
+    func didTapFaceTwice(_ sender: UITapGestureRecognizer){
+        sender.view?.removeFromSuperview()
+    }
 
     /*
     // MARK: - Navigation
