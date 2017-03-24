@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2444AB721E84C17F007EA379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444AB711E84C17F007EA379 /* AppDelegate.swift */; };
+		2444AB771E84C17F007EA379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2444AB751E84C17F007EA379 /* Main.storyboard */; };
+		2444AB7A1E84C17F007EA379 /* Smileys.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2444AB781E84C17F007EA379 /* Smileys.xcdatamodeld */; };
+		2444AB7C1E84C17F007EA379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2444AB7B1E84C17F007EA379 /* Assets.xcassets */; };
+		2444AB7F1E84C17F007EA379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2444AB7D1E84C17F007EA379 /* LaunchScreen.storyboard */; };
+		2444AB8A1E84C17F007EA379 /* SmileysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444AB891E84C17F007EA379 /* SmileysTests.swift */; };
+		2444AB951E84C17F007EA379 /* SmileysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444AB941E84C17F007EA379 /* SmileysUITests.swift */; };
+		2444ABA41E84C216007EA379 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444ABA31E84C216007EA379 /* CanvasViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2444AB861E84C17F007EA379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2444AB661E84C17E007EA379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2444AB6D1E84C17E007EA379;
+			remoteInfo = Smileys;
+		};
+		2444AB911E84C17F007EA379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2444AB661E84C17E007EA379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2444AB6D1E84C17E007EA379;
+			remoteInfo = Smileys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2444AB6E1E84C17F007EA379 /* Smileys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smileys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2444AB711E84C17F007EA379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2444AB761E84C17F007EA379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2444AB791E84C17F007EA379 /* Smileys.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smileys.xcdatamodel; sourceTree = "<group>"; };
+		2444AB7B1E84C17F007EA379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2444AB7E1E84C17F007EA379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2444AB801E84C17F007EA379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2444AB851E84C17F007EA379 /* SmileysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2444AB891E84C17F007EA379 /* SmileysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileysTests.swift; sourceTree = "<group>"; };
+		2444AB8B1E84C17F007EA379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2444AB901E84C17F007EA379 /* SmileysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2444AB941E84C17F007EA379 /* SmileysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileysUITests.swift; sourceTree = "<group>"; };
+		2444AB961E84C17F007EA379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2444ABA31E84C216007EA379 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2444AB6B1E84C17E007EA379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2444AB821E84C17F007EA379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2444AB8D1E84C17F007EA379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2444AB651E84C17E007EA379 = {
+			isa = PBXGroup;
+			children = (
+				2444AB701E84C17F007EA379 /* Smileys */,
+				2444AB881E84C17F007EA379 /* SmileysTests */,
+				2444AB931E84C17F007EA379 /* SmileysUITests */,
+				2444AB6F1E84C17F007EA379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2444AB6F1E84C17F007EA379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2444AB6E1E84C17F007EA379 /* Smileys.app */,
+				2444AB851E84C17F007EA379 /* SmileysTests.xctest */,
+				2444AB901E84C17F007EA379 /* SmileysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2444AB701E84C17F007EA379 /* Smileys */ = {
+			isa = PBXGroup;
+			children = (
+				2444ABA21E84C1FB007EA379 /* view controllers */,
+				2444AB711E84C17F007EA379 /* AppDelegate.swift */,
+				2444AB751E84C17F007EA379 /* Main.storyboard */,
+				2444AB7B1E84C17F007EA379 /* Assets.xcassets */,
+				2444AB7D1E84C17F007EA379 /* LaunchScreen.storyboard */,
+				2444AB801E84C17F007EA379 /* Info.plist */,
+				2444AB781E84C17F007EA379 /* Smileys.xcdatamodeld */,
+			);
+			path = Smileys;
+			sourceTree = "<group>";
+		};
+		2444AB881E84C17F007EA379 /* SmileysTests */ = {
+			isa = PBXGroup;
+			children = (
+				2444AB891E84C17F007EA379 /* SmileysTests.swift */,
+				2444AB8B1E84C17F007EA379 /* Info.plist */,
+			);
+			path = SmileysTests;
+			sourceTree = "<group>";
+		};
+		2444AB931E84C17F007EA379 /* SmileysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2444AB941E84C17F007EA379 /* SmileysUITests.swift */,
+				2444AB961E84C17F007EA379 /* Info.plist */,
+			);
+			path = SmileysUITests;
+			sourceTree = "<group>";
+		};
+		2444ABA21E84C1FB007EA379 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2444ABA31E84C216007EA379 /* CanvasViewController.swift */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2444AB6D1E84C17E007EA379 /* Smileys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2444AB991E84C17F007EA379 /* Build configuration list for PBXNativeTarget "Smileys" */;
+			buildPhases = (
+				2444AB6A1E84C17E007EA379 /* Sources */,
+				2444AB6B1E84C17E007EA379 /* Frameworks */,
+				2444AB6C1E84C17E007EA379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smileys;
+			productName = Smileys;
+			productReference = 2444AB6E1E84C17F007EA379 /* Smileys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2444AB841E84C17F007EA379 /* SmileysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2444AB9C1E84C17F007EA379 /* Build configuration list for PBXNativeTarget "SmileysTests" */;
+			buildPhases = (
+				2444AB811E84C17F007EA379 /* Sources */,
+				2444AB821E84C17F007EA379 /* Frameworks */,
+				2444AB831E84C17F007EA379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2444AB871E84C17F007EA379 /* PBXTargetDependency */,
+			);
+			name = SmileysTests;
+			productName = SmileysTests;
+			productReference = 2444AB851E84C17F007EA379 /* SmileysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2444AB8F1E84C17F007EA379 /* SmileysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2444AB9F1E84C17F007EA379 /* Build configuration list for PBXNativeTarget "SmileysUITests" */;
+			buildPhases = (
+				2444AB8C1E84C17F007EA379 /* Sources */,
+				2444AB8D1E84C17F007EA379 /* Frameworks */,
+				2444AB8E1E84C17F007EA379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2444AB921E84C17F007EA379 /* PBXTargetDependency */,
+			);
+			name = SmileysUITests;
+			productName = SmileysUITests;
+			productReference = 2444AB901E84C17F007EA379 /* SmileysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2444AB661E84C17E007EA379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Satyam Jaiswal";
+				TargetAttributes = {
+					2444AB6D1E84C17E007EA379 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2444AB841E84C17F007EA379 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2444AB6D1E84C17E007EA379;
+					};
+					2444AB8F1E84C17F007EA379 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2444AB6D1E84C17E007EA379;
+					};
+				};
+			};
+			buildConfigurationList = 2444AB691E84C17E007EA379 /* Build configuration list for PBXProject "Smileys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2444AB651E84C17E007EA379;
+			productRefGroup = 2444AB6F1E84C17F007EA379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2444AB6D1E84C17E007EA379 /* Smileys */,
+				2444AB841E84C17F007EA379 /* SmileysTests */,
+				2444AB8F1E84C17F007EA379 /* SmileysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2444AB6C1E84C17E007EA379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2444AB7F1E84C17F007EA379 /* LaunchScreen.storyboard in Resources */,
+				2444AB7C1E84C17F007EA379 /* Assets.xcassets in Resources */,
+				2444AB771E84C17F007EA379 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2444AB831E84C17F007EA379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2444AB8E1E84C17F007EA379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2444AB6A1E84C17E007EA379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2444AB7A1E84C17F007EA379 /* Smileys.xcdatamodeld in Sources */,
+				2444ABA41E84C216007EA379 /* CanvasViewController.swift in Sources */,
+				2444AB721E84C17F007EA379 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2444AB811E84C17F007EA379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2444AB8A1E84C17F007EA379 /* SmileysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2444AB8C1E84C17F007EA379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2444AB951E84C17F007EA379 /* SmileysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2444AB871E84C17F007EA379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2444AB6D1E84C17E007EA379 /* Smileys */;
+			targetProxy = 2444AB861E84C17F007EA379 /* PBXContainerItemProxy */;
+		};
+		2444AB921E84C17F007EA379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2444AB6D1E84C17E007EA379 /* Smileys */;
+			targetProxy = 2444AB911E84C17F007EA379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2444AB751E84C17F007EA379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2444AB761E84C17F007EA379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2444AB7D1E84C17F007EA379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2444AB7E1E84C17F007EA379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2444AB971E84C17F007EA379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2444AB981E84C17F007EA379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2444AB9A1E84C17F007EA379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smileys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.codepath.com.Smileys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2444AB9B1E84C17F007EA379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smileys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.codepath.com.Smileys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2444AB9D1E84C17F007EA379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmileysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.codepath.com.SmileysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smileys.app/Smileys";
+			};
+			name = Debug;
+		};
+		2444AB9E1E84C17F007EA379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmileysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.codepath.com.SmileysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smileys.app/Smileys";
+			};
+			name = Release;
+		};
+		2444ABA01E84C17F007EA379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmileysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.codepath.com.SmileysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Smileys;
+			};
+			name = Debug;
+		};
+		2444ABA11E84C17F007EA379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmileysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.codepath.com.SmileysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Smileys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2444AB691E84C17E007EA379 /* Build configuration list for PBXProject "Smileys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444AB971E84C17F007EA379 /* Debug */,
+				2444AB981E84C17F007EA379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2444AB991E84C17F007EA379 /* Build configuration list for PBXNativeTarget "Smileys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444AB9A1E84C17F007EA379 /* Debug */,
+				2444AB9B1E84C17F007EA379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2444AB9C1E84C17F007EA379 /* Build configuration list for PBXNativeTarget "SmileysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444AB9D1E84C17F007EA379 /* Debug */,
+				2444AB9E1E84C17F007EA379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2444AB9F1E84C17F007EA379 /* Build configuration list for PBXNativeTarget "SmileysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444ABA01E84C17F007EA379 /* Debug */,
+				2444ABA11E84C17F007EA379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2444AB781E84C17F007EA379 /* Smileys.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2444AB791E84C17F007EA379 /* Smileys.xcdatamodel */,
+			);
+			currentVersion = 2444AB791E84C17F007EA379 /* Smileys.xcdatamodel */;
+			path = Smileys.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2444AB661E84C17E007EA379 /* Project object */;
+}
